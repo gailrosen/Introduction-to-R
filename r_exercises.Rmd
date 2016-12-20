@@ -14,7 +14,7 @@ knitr::opts_chunk$set(echo = TRUE)
 Run the following code block. Biostrings is a Bioconductor package, so please install the required packages first. If you have yet to see the installation guide, follow this link: https://dl.dropboxusercontent.com/u/907375/Bioinformatics_class/installing.htm. Also, the **source()** the function is loads all of the functions written for this tutorial; therefore, **if you clear your workspace, you should rerun the source command to reload said functions**.
 
 ```{r,warning=FALSE,message=FALSE}
-source('https://dl.dropboxusercontent.com/u/907375/Bioinformatics_class/R_functions.R')
+source('https://gist.githubusercontent.com/sw1/8870a124624f31585d5c15be72fcfc21/raw/162b0c542482d481f79b0160071114eb38cb568e/r_bioinformatics_functions.R')
 
 load_library(Biostrings)
 load_library(ggplot2)
