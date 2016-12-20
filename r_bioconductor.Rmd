@@ -9,7 +9,7 @@ output: html_document
 knitr::opts_chunk$set(echo=TRUE, eval=FALSE)
 ```
 ```{r,warning=FALSE,message=FALSE}
-source('https://dl.dropboxusercontent.com/u/907375/Bioinformatics_class/R_inclass_functions.R')
+source('https://gist.githubusercontent.com/sw1/8870a124624f31585d5c15be72fcfc21/raw/162b0c542482d481f79b0160071114eb38cb568e/r_bioinformatics_functions.R')
 
 load_library(Biostrings)
 load_library(ggplot2)
